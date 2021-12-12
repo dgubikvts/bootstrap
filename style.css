@@ -1,0 +1,64 @@
+body{
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+    background-color: black;
+    color: white;
+}
+.hero{
+    height: 100vh;
+    width: 100wv;
+}
+.header{
+    max-width: 100%;
+    background-image:url("slike/hero.jpg");
+    background-size:100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-text{
+    font-size: 6rem;
+}
+.bela{
+    color: white !important;
+}
+.podvucena{
+    text-decoration: underline;
+}
+.crnapozadina{
+    background-color: black !important;
+}
+.navbar-nav > a{
+    margin-left:50px;
+    margin-right:50px;
+  }
+.okvir{
+    font-size: 2em;
+    border: solid white 2px;
+    background-color: transparent;
+    padding: 0;
+}
+.okvir:hover{
+    border: solid black 2px;
+    background-color: white;
+    color: black;
+}
+.okvir:focus{
+    border: solid black 2px;
+    background-color: white;
+    color: black;
+    box-shadow: none;
+}
+.slika{
+    width: 50px;
+}
+.transparent{
+    background-color: transparent;
+    color: white;
+}
+li{
+    padding: 0 !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none; 
+    margin: 0; 
+}
